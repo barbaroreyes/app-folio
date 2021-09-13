@@ -1,12 +1,15 @@
 import {Switch ,Route} from 'react-router-dom'
+import Home from './Pages/Home'
+import Header from './Compo/Header'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+     <Header/>
       <Switch>
         <Route exact path="/">
-         Home
+         <Home/>
         </Route>
         <Route exact path="/about">
          About
