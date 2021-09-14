@@ -2,6 +2,7 @@ import {Switch ,Route} from 'react-router-dom'
 import Home from './Pages/Home'
 import Header from './Compo/Header'
 import './App.css';
+import Portafolio from './Pages/Portafolio';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
          About
         </Route>
         <Route exact path="/portafolio">
-         Portafolio
+         <Portafolio/>
         </Route>
         <Route exact path="/projects">
          Projects
