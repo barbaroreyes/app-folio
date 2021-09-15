@@ -3,6 +3,7 @@ import Home from './Pages/Home'
 import Header from './Compo/Header'
 import './App.css';
 import Portafolio from './Pages/Portafolio';
+import About from './Pages/About';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
          <Home/>
         </Route>
         <Route exact path="/about">
-         About
+         <About/>
         </Route>
         <Route exact path="/portafolio">
          <Portafolio/>
@@ -28,9 +29,7 @@ function App() {
          Contact
         </Route>
       </Switch>
-     {/* <div className="box-dad">
-       <h1>Name</h1>
-     </div> */}
+    
     </div>
   );
 }
