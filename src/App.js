@@ -4,6 +4,7 @@ import Header from './Compo/Header'
 import './App.css';
 import Portafolio from './Pages/Portafolio';
 import About from './Pages/About';
+import ContactP from './Pages/ContactPage'
 
 function App() {
   return (
@@ -26,7 +27,7 @@ function App() {
          Project
         </Route>
         <Route exact path="/contact">
-         Contact
+        <ContactP/>
         </Route>
       </Switch>
     
