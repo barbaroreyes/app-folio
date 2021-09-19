@@ -4,6 +4,7 @@ const Portafolio = () => {
   return (
     <div className="portafolio">
       <h2>Projects</h2>
+      
     </div>
   )
 }
