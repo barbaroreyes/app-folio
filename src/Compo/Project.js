@@ -5,7 +5,7 @@ const Project = (props) => {
     <div>
       Project
     <h1>{props.name}</h1>
-    <Link to={props.github}>GitHub</Link>
+    <Link to={props.link}>GitHub</Link>
     <Link to={props.live}>App</Link>
     </div>
   );
