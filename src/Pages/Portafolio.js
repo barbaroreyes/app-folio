@@ -8,7 +8,7 @@ const Portafolio = () => {
       {Data.map((item,i)=>{
         return (<Project key={i} {...item}/>)
       })}
-       <Project/>
+       
     </div>
   )
 }
