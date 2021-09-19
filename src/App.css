@@ -20,3 +20,20 @@
   border: 1px solid black;
   padding: 10px;
 }
+.project{
+  border: 1px solid black;
+  width: 40%;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.portafolio{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
