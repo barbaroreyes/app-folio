@@ -1,12 +1,12 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-const Project = () => {
+const Project = (props) => {
   return (
     <div>
       Project
-    <h1>name</h1>
-    <Link to=''>GitHub</Link>
-    <Link to=''>App</Link>
+    <h1>{props.name}</h1>
+    <Link to={props.github}>GitHub</Link>
+    <Link to={props.live}>App</Link>
     </div>
   );
 }

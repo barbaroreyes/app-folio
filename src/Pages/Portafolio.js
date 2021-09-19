@@ -3,7 +3,7 @@ import Project from '../Compo/Project'
 const Portafolio = () => {
   return (
     <div className="portafolio">
-      <h2>Projects</h2>
+      <h2>Projectss</h2>
        <Project/>
     </div>
   )
