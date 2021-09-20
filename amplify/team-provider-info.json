@@ -10,6 +10,11 @@
       "StackName": "amplify-appfolio-dev-212621",
       "StackId": "arn:aws:cloudformation:us-east-1:217175807922:stack/amplify-appfolio-dev-212621/269122a0-19ba-11ec-9dec-0a0575ffedcb",
       "AmplifyAppId": "d3rrqajf3m78c3"
+    },
+    "categories": {
+      "auth": {
+        "appfolio589883b5": {}
+      }
     }
   }
 }
