@@ -1,9 +1,10 @@
 import React,{useState,useEffect} from 'react'
-import {API,graphqlOperation} from 'aws-amplify'
+import Amplify,{API,graphqlOperation} from 'aws-amplify'
 import Data from '../data'
 import {listProjects} from '../graphql/queries'
+import awsconfig from "../aws-exports";
 import Project from '../Compo/Project'
-
+Amplify.configure(awsconfig)
 const Portafolio = () => {
   const [project,setProject] = useState([])
 
@@ -15,6 +16,7 @@ const Portafolio = () => {
       const projectData = await  API.graphql(graphqlOperation(listProjects))
       const projectList =  projectData.data.listProjects.items
       console.log('projectList',projectList)
+      setProject(projectList)
     } catch (error) {
       
     }
@@ -22,7 +24,7 @@ const Portafolio = () => {
   return (
     <div className="portafolio">
      
-      {Data.map((item,i)=>{
+      {project.map((item,i)=>{
         return (<Project key={i} {...item}/>)
       })}
        

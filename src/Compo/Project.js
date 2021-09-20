@@ -5,8 +5,9 @@ const Project = (props) => {
     <div  className="project">
     
     <h1>{props.name}</h1>
-    <Link to={props.link}>GitHub</Link>
-    <Link to={props.live}>App</Link>
+    <a href="https://github.com/barbaroreyes/app-store-beers">Git</a>
+    <a href="https://barbaro-store-beers.netlify.app/">APP</a>
+
     </div>
   );
 }
