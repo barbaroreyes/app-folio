@@ -6,7 +6,7 @@ const Project = (props) => {
     
     <h1>{props.name}</h1>
     <a href="https://github.com/barbaroreyes/app-store-beers">Git</a>
-    <a href="https://barbaro-store-beers.netlify.app/">APP</a>
+    <a href="https://barbaro-store-beers.netlify.app/">A</a>
 
     </div>
   );
